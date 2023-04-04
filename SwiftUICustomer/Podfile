@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SwiftUICustomer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'
+  pod 'SDWebImage'
+
+
+
+  # Pods for SwiftUICustomer
+
+  target 'SwiftUICustomerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SwiftUICustomerUITests' do
+    # Pods for testing
+  end
+
+end
